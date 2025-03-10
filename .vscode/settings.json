@@ -18,5 +18,30 @@
     "titleBar.inactiveBackground": "#1c25b599",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#1c25b5"
+  "peacock.color": "#1c25b5",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  }
 }
